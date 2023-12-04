@@ -1,0 +1,95 @@
+@media (max-width:800px){
+    .cat{
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    h7{
+        margin: 0%;
+        margin-left: 1%;
+        margin-right: 1%;
+        font-size: 2.2vw;
+    }
+    .h8{
+        margin: auto;
+        height: 100%;
+        border-radius: 0px;
+        font-size: 2vw;
+    }
+    .menu1{
+        width: 100%;
+        height: 7vw;
+        flex-direction: row;
+        border-radius: 0px;
+    }
+
+}
+@media screen and (max-width: 800px) {
+    .flac {
+        margin-top: 2%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fl {
+        /* стили для блока .fl на экранах с максимальной шириной 1000px */
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .flac1 {
+        /* стили для блока .flac1 на экранах с максимальной шириной 1000px */
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 3%;
+    }
+
+    .imgfl {
+        /* стили для блока .imgfl на экранах с максимальной шириной 1000px */
+        width: 80%;
+        height: 40vw;
+    }
+    .fl2{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 3%;
+    }
+    .naz {
+        /* стили для блока .naz на экранах с максимальной шириной 1000px */
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    p8{
+        font-size: 3vw !important;
+    }
+
+    .naz1 {
+        /* стили для блока .naz1 на экранах с максимальной шириной 1000px */
+        width: 70%;
+    }
+
+    p9{
+        font-size: 2vw !important;
+    }
+    h9{
+        font-size: 2.2vw;
+    }
+}
+

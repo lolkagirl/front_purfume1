@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet"  href="./css/style41.css">
+    <style>
+        @font-face {
+	font-family: 'Playfair Display'; 
+	src: local('Playfair Display'),
+		url(PlayfairDisplay-VariableFont_wght.ttf); 
+}
+hr{
+    opacity: 2.35;
+    margin: 0.9% auto;
+    
+}
+header{
+    margin-top: 1%;
+}
+    </style>
+</head>
+<body>
+    <header class="menu">
+      
+      <div class="logo">
+          <div style="width: 100%; height: 100%; display: flex; justify-content: flex-end; margin: auto 0%;">
+              <img src="./img/флакон.svg" width="78%" height="98%">
+          </div>
+          <hr style="display: flex; width: 0.5%; height: 3.6vw; margin-left: 8%; margin-right: 3%; background: #404B34;">
+          <div>
+            <p2>scents by</p2>
+            <p3>Julia</p3>
+            </div>
+      </div>
+    
+        
+    <div class="pan"> <!--lincs-->
+        <a href="index.html"><p1>Главная</p1></a>
+            <a href="about.html"><p1>О нас</p1></a>
+            <a href="new.html"><p1>Каталог</p1></a>
+            <a href="contakt.html"><p1>Контакты</p1></a>
+    </div>
+
+    <div class="account">
+            <a href="login.html">
+              <img src="./img/icon-личный кабинет.svg" style="width: 100%; height: 100%;">
+            </a>
+    </div>
+
+    <div class="kor">
+          <a href="login.html"><p>Корзина</p></a>
+    </div>
+        
+    <button class="menu-toggle">&#9776;</button>
+  
+    <div class="menu-dropdown">
+            <a href="index.html"><p1>Главная</p1></a>
+            <a href="about.html"><p1>О нас</p1></a>
+            <a href="contakt.html"><p1>Каталог</p1></a>
+            <a href="contakt.html"><p1>Контакты</p1></a>
+            <a href="login.html"><p1>Личный кабинет</p1></a>
+            <a href="login.html"><p1>Корзина</p1></a>
+        </div>
+   
+    </header>
+    <hr style="width: 96%; height: 0.1vw; background: #7E8566;">
+    
+   
+
+    <div class="f"><h1>Авторизация</h1>
+
+        <form class="was-validated" id="step1-form">
+          <div class="r">
+            <div class="mb-3 center">
+                <label for="confirmPassword" class="form-label">Логин</label>
+                <input type="text" class="form-control" id="login" placeholder="Логин" required>
+                <div class="invalid-feedback">Пожалуйста, заполните поле</div>
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Пароль</label>
+              <input type="password" class="form-control" id="password" placeholder="*****" required>
+              <div class="invalid-feedback">Пожалуйста, заполните поле</div>
+            </div>
+        </div>
+        <div class="b"><button type="button" class="log btn btn-secondary custom_btn" onclick="validateStep1()">Войти</button></div>
+ 
+
+        
+                <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel"
+                                        aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="ModalLabel">Вы успешно вошли!</h1>
+                                                    <button type="submit" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>Выберите свои дальнейшие действия</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                                    <a href="new.html"><button type="button" class="btn btn-secondary">Каталог</button></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+              </form>
+              <div class="h8"><a href="reg.html"><h8>Нет аккаунта? Зарегистрируйтесь!!!</h8></a></div>
+            </div>
+        
+
+
+  
+    
+
+
+    <footer>
+        <div class="fleft">
+
+            <div class="kat">
+                <div class="katalog">
+                    <div class="p16"><p16>Каталог</p16></div>
+                    
+                    <div class="p17">
+                        <p17><a href="woman.html">Женское</a></p17>
+                        <p17><a href="man.html">Мужское</a></p17>
+                        <p17><a href="sert.html">Сертификаты</a></p17>
+                    </div>
+                </div>
+
+                <div class="our">
+                    <div class="p16"><p16>Наш бренд</p16></div>
+                    
+                    <div class="p17">
+                        <p17><a href="about.html">О нас</a></p17>
+                        <p17><a href="index.html#git">Краткий гид</a></p17>
+                    </div>
+                </div>
+
+                <div class="infor">
+                    <div class="p16"><p16>Информация</p16></div>
+                    
+                    <div class="p17">
+                        <p17><a href="index.html">Главная</a></p17>
+                        <p17><a href="contakt.html">Контакты</a></p17>
+                        <p17>Адрес: г.Москва, ул.Резная,д.567</p17>
+                    </div>
+                </div>
+
+            </div>
+            <hr style="width: 91%; height: 0.01vw; background: #404B34; margin:0 0 0 2%;">
+            <p>©2023 scents by JULIA</p>
+            
+
+        </div>
+        <hr class="hr-style" style="width: 0.01vw; height: 18vw; background: #404B34; margin: 0;">
+        <div class="fright">
+            <div class="with_our">
+                <div class="p16"><p16>Связь с нами</p16></div>
+                <div class="znac">
+                    <img src="./img/тг.svg" width="16%" height="100%">
+                    <img src="./img/вк.svg"  width="16%" height="100%">
+                    <img src="./img/ватцап.svg"  width="16%" height="100%">
+                </div>
+                <div class="text">
+                    <p20>Телефон: <a href="tel:+78005553535">8 800 555 35 35</a></p20>
+                    <p20>Эл. почта: <a href="mailto:juliapurf@mail.ru?subject=Вопросы и предложения">juliapurf@mail.ru</a></p20>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="btn-up btn-up_hide"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script>
+  function validateStep1() {
+  if (document.getElementById('login').value && document.getElementById('password').value) {
+    // Здесь можно добавить дальнейшую логику для перехода к следующему шагу
+         // Показ модального окна при успешной регистрации
+        var myModal = new bootstrap.Modal(document.getElementById('Modal'));
+        myModal.show();
+
+      document.getElementById('Modal').addEventListener('hidden.bs.modal', function () {
+      // Сбрасываем форму
+      document.getElementById('step1-form').reset();
+});
+  }
+
+  }
+    </script>
+</body>
+</html>

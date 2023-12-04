@@ -1,4 +1,5 @@
-body{
+
+  body{
     font-family: 'Playfair Display', serif;
     margin: 0%;
     width: 100%;
@@ -35,7 +36,7 @@ display: none;
 
 @media (hover: hover) and (pointer: fine) {
 .btn-up:hover {
-background-color: #7E8566;
+background-color: #FEFAE0;
 }
 }
 
@@ -121,9 +122,7 @@ p1{
     text-transform: capitalize;
    
 }
-a p1:hover{
-    color: #5b882a;
-}
+
 .pan a {
     margin: auto 2% ;        
     text-decoration: none
@@ -152,7 +151,6 @@ a p1:hover{
     font-size: 1.3vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 0%; /* 0% */
     letter-spacing: 0.3vw;
     text-transform: capitalize;
 
@@ -167,9 +165,7 @@ a p1:hover{
     color: #fff;
     text-decoration: none;
 }
-h2 a{
-    color: #fff;
-}
+
 
 .menu-toggle {
     display: none;
@@ -186,270 +182,102 @@ h2 a{
   display: none;
 }
 
-.ccc {
-height: 29%;           
-position: relative;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-text-align: center;
-}
-
-.cv { width: 75%;
-    height: 25%;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-.h1{
-    
-    width: 60%;
-    height: 10%;
-    top: 16%;
-    margin: 0 auto;
-    position: absolute; 
-    color: white; 
-    font-size: 4vw;
-    font-weight: 400;
-     text-transform: uppercase; 
-     letter-spacing: 2vw; 
-     word-wrap: break-word;
-}
-
-.h2{
-    width: 100%; height: 10%;  top: 32%;
-    margin: 0 auto;
-    position: absolute; 
-    color: white; 
-    font-size: 4vw; 
-    font-weight: 400;
-     text-transform: uppercase; 
-     letter-spacing: 2vw; 
-     word-wrap: break-word;
-
-}
-
-h2{
-    display: flex;
-    position: absolute;
-    top: 44%;
-    width: 28%;
-    height: 9%;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    color: #FFF;
-
-    text-align: center;
-    font-size: 2.6vw;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 0%; /* 0% */
-    letter-spacing: 0.33vw;
-
-}
-
-.t{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
 
 
-.new{
-
-    display: flex;
-    width: 91%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 29%;
-    margin-top:2%;
-    flex-direction: column;
-
-    flex-shrink: 0;
-}
-.neww{
-    
-    width: 29%;
-    height: 8.5vw;
-    border-radius: 5vw 0;
-    border: 0.2vw solid #7E8566;
-    display: flex;
-    justify-content: space-around;
-}
-h3{
-    display: flex;
-    width: 70%;
-    height: 9%;
-    align-items: center;
-    flex-shrink: 0;
-    color: #404B34;
-        margin: auto;
-    text-align: center;
-    font-size: 2.6vw;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 0%; /* 0% */
-    letter-spacing: 0.7vw;
-    text-transform: uppercase;
-}
-
-.f{
-    width: 100%;
-    height: 60%;
-    margin-top:5%;
-    display: flex;
-    justify-content: space-between;
-    flex-shrink: 0;
-
-}
-.f1{
-    width: 28.7%;
-    height: 99%;
-    flex-shrink: 0;
-
-    
-}
-.img{
-    width: 100%; 
-    height:26vw; 
-    background: #E9EDC9; 
-    display: flex;
-                    
-    justify-content: center;
-                    
-    align-items: center;
-}
-
-.f31{
-    
-    width: 100%;
-    height: 16.5%;
-    flex-shrink: 0;
-}
-p8{
-    color: #404B34;
-    text-align: center;
-    font-size: 1.5vw;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 0.2vw;
-    text-transform: uppercase;
-}
-.f32{
-
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: 54%;
-    display: flex;
-     align-items: center;
-    justify-content: center;flex-shrink: 0;
-}
-p7{
-    margin: 0 3%;
-    text-align: center;
-    font-size: 1.3vw;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 0px; /* 0% */
-    letter-spacing: 0.17vw;
-}
-p7:hover{
-    color: #5b882a;
-    text-decoration: underline;
-}
-.ech:hover{
-    background: rgba(91, 136, 42, 0.82);
-	color: #fff;
-	box-shadow: inset 0 0 0 3px #5b882a;
-}
-.ech a{
-    color: #fff;
-}
-.ech a:hover{
-    color: #fff;
-}
-.ech{
-    width: 22%;
-    height: 5.2vw;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:4%;
-    flex-shrink: 0;
-    border-radius: 3vw;
-    background: rgba(64, 75, 52, 0.81);
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    color: #FFF;
+h1{
+    margin: auto 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color:#404B34;
     text-align: center;
     font-size: 2vw;
     font-style: normal;
     font-weight: 400;
-    letter-spacing: 0.4vw;
+    letter-spacing: 0.3vw;
     text-transform: capitalize;
+
 }
-.mis{
-    margin-top: 5.8%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+input[type=text],
+input[type=tel],
+input[type=email],
+input[type=password],
+input[type=confirmPasword] {
+    border: none;
+    border-bottom: 1.5px solid;
+    background-color: #F4F4F5;
+    color: #000;
+    font-size: 1.1vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 100%;
+    padding: 1vw;
     
 }
-.tex{    
+.mb-3{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-label{
+    font-size: 1.2vw;
+}
+::placeholder {
+    color: #000;
+}
+#step1-form{
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+    margin-top: 8%;
     display: flex;
-    width: 91%;
-    height: 36vw;
     flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    color: #404B34;
-    text-align: center;
-    font-size: 1.6vw;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 157.813%; /* 157.813% */
-    letter-spacing:  0.2vw;
+    justify-content: space-between;
 }
-
-ul{
-    list-style: none;
-    text-align: center;
-    padding: 0;
-   
-}
-li:before {
-    content: "\2022";
-    margin-inline-end: 0.9vw;
-}
-.miss{
-    width: 65%;
-    height: 9vw;
-    flex-shrink: 0;
-    border-radius: 5vw 0;
-    border: 0.2vw solid #7E8566;
-    background: rgba(255, 255, 255, 0.24);
-
+.b{
     display: flex;
+    justify-content: center;
+    
+}
+.r{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.h8{
+    display: flex;
+    justify-content: center;
     align-items: center;
-
+    margin-bottom: 3%;
+    font-size: 1vw;
 }
-h4{
-     color: #404B34;
-    text-align: center;
-    font-size: 2.6vw;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 0.7vw;
-    text-transform: uppercase;
+.log, .btn{
+    font-size: 1.2vw
 }
-
+.btn{
+    
+    border-radius: 5px;
+    background: rgba(64, 75, 52, 0.70);
+}
+.btn:hover{
+    background: #6ea632;
+}
+.f{
+    width: 29%;
+    height: 36.46vw;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    background: rgba(204, 213, 174, 0.60);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.b{
+    margin-right: 2%;
+}
 footer{
     background: #D1D5B5;
     width: 100%;
@@ -577,25 +405,42 @@ p17{
     font-weight: 400;
     letter-spacing:  0.2vw;
 }
-a{
-    text-decoration: none ;
-    color: #404B34; /* Цвет ссылок */
-    transition: color 0.3s;
+
+@media (max-width: 2000px) {
+    .f{
+      height: 41vw;
+    }
 }
-a:hover{
-    color: #5b882a;
-    text-decoration: underline;
+
+@media (max-width: 1800px) {
+    .f{
+      height: 42vw;
+    }
 }
+
+@media (max-width: 1600px) {
+    .f{
+      height: 44vw;
+    }
+}
+
+
+@media screen and (max-width: 1400px) {
+    .f{
+       
+        height: 47vw;
+}}
+
 
 @media screen and (max-width: 1200px) {
     .logo p2{
         height: 30%;
         margin-top: 14%
     }
-    .tex{
-         height: 40vw;
-        font-size: 1.7vw;
-    }
+    .f{
+       
+        height: 49vw;
+}
     
 }
 @media screen and (max-width: 1000px) {
@@ -603,12 +448,15 @@ a:hover{
         height: 30%;
         margin-top: 14%
     }
-    .tex{
-            
-        font-size: 1.7vw;
-            height: 42vw;
+    .f{
+        height: 53vw;
+      }
+      .invalid-feedback{
+        font-size: 1.2vw;
     }
-    
+    .mb-3 {
+        margin-bottom: 0px!important; 
+    }
 }
 
 
@@ -659,54 +507,31 @@ a:hover{
         text-decoration: none;
     }
 
-    
-    
+    .f{
+       
+        height: 55vw;
 }
+
+
+}
+
+a{
+    text-decoration: none ;
+    color: #404B34; /* Цвет ссылок */
+    transition: color 0.3s;
+}
+a:hover{
+    color: #5b882a;
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 600px) {
     .logo p2{
         height: 30%;
         margin-top: 14%
     }
-    .tex{
-            
-        font-size: 2.7vw;
-        width: 82vw;
-        height: 72vw;
-    }
-    .new{
-        height: 100%;
-    }
-    .f{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .f1{
-        width: 60%;
-        height: 100%;
-        margin-bottom: 5%;}
-    .img{
-        width: 100%;
-        height: 100%;
-    }
-
-    .f31{
-        height: 50%;
-    }
-    p8{
-        font-size: 3.7vw;
-    }
-    p7{
-        font-size: 3vw;
-    }
-    .ech{
-        width: 32%;
-        height: 7.5vws;
-        font-size: 3vw;
-    }
+ 
     p1{
         font-size: 3vw;
         top: 3vw;
@@ -714,34 +539,17 @@ a:hover{
     .menu-dropdown {
         top: 7vw;
     }
-    .miss{
-        width: 70%;
-        height: 11vw;
-        font-size: 3vw;
-}
-    h3{
-        width: 80%;
-        height: 9%;
-        font-size: 3vw;
+    .f{
+        height: 58vw;
+      }
+    
+      .my-custom-margin{
+        margin-bottom: 0;
     }
-    .h1{
-    
-        width: 63%;
-        height: 11%;
-        top: 14%;
-        font-size: 4.6vw;
+    .invalid-feedback{
+        font-size: 1.2vw;
     }
-    
-    .h2{
-        width: 100%; height: 10%;  top: 28%; 
-        font-size: 4.6vw; 
-        font-weight: 400;
-    
-    }
-    h2{
-        top: 43%;
-        width: 30%;
-        font-size: 2.8vw;
-    
+    .form-label{
+        margin-bottom: 1%;
     }
 }
